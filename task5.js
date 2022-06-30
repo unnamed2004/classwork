@@ -6,12 +6,12 @@ btn.onclick =()=> {
     span.innerHTML=fact() 
 }
 function fact(){
-    result = 1;
+    sum = 1;
      for (let i=1;i<=num.value;i++){
-     result = result * i;
-     console.log(result)
+     sum = sum * i;
+     console.log(sum)
     }
-    return result;
+    return sum;
 }
 let colors = ["red", "green","blue","yellow","gray","yellow-green"]
  setInterval(function(){
